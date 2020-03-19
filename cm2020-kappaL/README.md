@@ -10,7 +10,4 @@ Column descriptions (kappaL-tensors-layered.csv)
 * *sgname*: crystal system
 * *kappaLmin*: minimum lattice thermal conducitivity (in W/mK)
 * *kappaLmax*: maximum lattice thermal conductivity (in W/mK)
-* *T11, T22, T33, T12, T13, T23*: kL tensor components (in W/mK),
-where kL= | T11 T12 T13 |
-          | T12 T22 T23 |
-          | T13 T23 T33 |
+* *T11, T22, T33, T12, T13, T23*: kL tensor components (in W/mK), where T12=T21, T13=T31, T23=T32
